@@ -23,7 +23,16 @@
             margin-bottom:1.25rem;
         }
 
-        #themeToggleBtn{
+        .header-actions{
+            display:flex;
+            align-items:center;
+            justify-content:flex-end;
+            gap:8px;
+            flex-wrap:wrap;
+        }
+
+        #themeToggleBtn,
+        #adminBackBtn{
             white-space:nowrap;
         }
 
@@ -57,13 +66,15 @@
             color:#f5f7fb;
         }
 
-        [data-bs-theme="dark"] #themeToggleBtn{
+        [data-bs-theme="dark"] #themeToggleBtn,
+        [data-bs-theme="dark"] #adminBackBtn{
             border-color:#4f6481;
             color:#d8e3f3;
             background:rgba(79, 100, 129, 0.15);
         }
 
-        [data-bs-theme="dark"] #themeToggleBtn:hover{
+        [data-bs-theme="dark"] #themeToggleBtn:hover,
+        [data-bs-theme="dark"] #adminBackBtn:hover{
             background:rgba(79, 100, 129, 0.28);
             border-color:#6d89b0;
             color:#ffffff;
@@ -117,6 +128,14 @@
                 align-items:flex-start;
                 flex-direction:column;
             }
+
+            .header-actions{
+                width:100%;
+            }
+
+            .header-actions .btn{
+                flex:1 1 140px;
+            }
         }
     </style>
 
@@ -133,9 +152,14 @@
 
                     <div class="header-row">
                         <h2 class="m-0">Reserva de clases</h2>
-                        <button id="themeToggleBtn" type="button" class="btn btn-outline-secondary btn-sm">
-                            Modo oscuro
-                        </button>
+                        <div class="header-actions">
+                            <a id="adminBackBtn" href="/admin" class="btn btn-outline-secondary btn-sm">
+                                Volver al panel
+                            </a>
+                            <button id="themeToggleBtn" type="button" class="btn btn-outline-secondary btn-sm">
+                                Modo oscuro
+                            </button>
+                        </div>
                     </div>
 
                     <div id="prefillNotice" class="alert alert-info d-none" role="alert"></div>
