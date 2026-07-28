@@ -1099,6 +1099,7 @@ app.use(validarCsrf);
 
 app.use((req, res, next) => {
   if (RUTAS_PROTEGIDAS.has(req.path)) {
+    res.setHeader("X-Robots-Tag", "noindex, nofollow");
     res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, private");
     res.setHeader("Pragma", "no-cache");
     res.setHeader("Expires", "0");

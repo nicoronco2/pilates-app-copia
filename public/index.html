@@ -3,11 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ataraxia Estudio de Pilates</title>
+    <title>Clases de Pilates Reformer en Córdoba | Ataraxia Pilates</title>
+    <meta name="description" content="Ataraxia Pilates ofrece clases de Pilates Reformer en Córdoba con grupos reducidos, atención personalizada, horarios de mañana y tarde, y reserva por WhatsApp.">
+    <meta name="keywords" content="pilates Córdoba, pilates reformer Córdoba, clases de pilates en Córdoba, estudio de pilates Córdoba, pilates personalizado Córdoba">
+    <meta name="author" content="Ataraxia Pilates">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="KPUE9L9M0oppvDdcEQqz73bKitolBHdYkURqbbM2S0g">
+    <link rel="canonical" href="https://ataraxia-pilates-web.onrender.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:site_name" content="Ataraxia Pilates">
+    <meta property="og:title" content="Clases de Pilates Reformer en Córdoba | Ataraxia Pilates">
+    <meta property="og:description" content="Estudio de Pilates Reformer en Córdoba con cupos reducidos, clases personalizadas y reserva por WhatsApp.">
+    <meta property="og:url" content="https://ataraxia-pilates-web.onrender.com/">
+    <meta property="og:image" content="https://ataraxia-pilates-web.onrender.com/imagen-local1.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clases de Pilates Reformer en Córdoba | Ataraxia Pilates">
+    <meta name="twitter:description" content="Clases de Pilates Reformer en Córdoba con grupos reducidos y atención personalizada.">
+    <meta name="twitter:image" content="https://ataraxia-pilates-web.onrender.com/imagen-local1.png">
     <link rel="icon" type="image/png" href="/ataraxia-logo.png">
     <link rel="apple-touch-icon" href="/ataraxia-logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "HealthClub",
+            "name": "Ataraxia Pilates",
+            "description": "Estudio de Pilates Reformer en Córdoba con clases personalizadas, grupos reducidos y horarios de mañana y tarde.",
+            "url": "https://ataraxia-pilates-web.onrender.com/",
+            "image": "https://ataraxia-pilates-web.onrender.com/imagen-local1.png",
+            "logo": "https://ataraxia-pilates-web.onrender.com/ataraxia-logo.png",
+            "telephone": "+5493513110462",
+            "priceRange": "$$",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "N. Rodríguez Peña 2177",
+                "addressLocality": "Córdoba",
+                "addressRegion": "Córdoba",
+                "postalCode": "X5001FII",
+                "addressCountry": "AR"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Córdoba"
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                    "opens": "08:00",
+                    "closes": "20:00"
+                }
+            ],
+            "sameAs": [
+                "https://www.instagram.com/ataraxia_pilates/",
+                "https://www.google.com/maps/search/?api=1&query=N.%20Rodr%C3%ADguez%20Pe%C3%B1a%202177%2C%20X5001FII%2C%20C%C3%B3rdoba%2C%20Argentina"
+            ],
+            "makesOffer": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Clases de Pilates Reformer"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Clases personalizadas de pilates"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Pilates para principiantes"
+                    }
+                }
+            ]
+        }
+    </script>
     <style>
         :root{
             --bg:#f7f1e8;
@@ -184,6 +261,24 @@
             font-size:.95rem;
         }
 
+        .nav-links{
+            display:flex;
+            align-items:center;
+            gap:.7rem;
+            flex-wrap:wrap;
+        }
+
+        .nav-links a{
+            color:var(--muted);
+            font-size:.92rem;
+            font-weight:800;
+            text-decoration:none;
+        }
+
+        .nav-links a:hover{
+            color:var(--accent);
+        }
+
         .hero-logo-wrap{
             margin-top:1.3rem;
             padding:1rem;
@@ -338,6 +433,55 @@
             background:rgba(255,255,255,0.9);
             border:1px solid rgba(45,36,31,0.08);
             box-shadow:var(--shadow);
+        }
+
+        .service-card{
+            height:100%;
+            padding:22px;
+            border-radius:24px;
+            background:rgba(255,255,255,0.9);
+            border:1px solid rgba(45,36,31,0.08);
+            box-shadow:var(--shadow);
+        }
+
+        .service-card h3{
+            font-size:1.2rem;
+            font-weight:800;
+            margin-bottom:.75rem;
+        }
+
+        .service-card p{
+            color:var(--muted);
+            line-height:1.65;
+            margin-bottom:0;
+        }
+
+        .faq-item{
+            border-bottom:1px solid rgba(45,36,31,0.1);
+            padding:1rem 0;
+        }
+
+        .faq-item:last-child{
+            border-bottom:0;
+            padding-bottom:0;
+        }
+
+        .faq-item h3{
+            font-size:1.05rem;
+            font-weight:800;
+            margin-bottom:.45rem;
+        }
+
+        .faq-item p{
+            color:var(--muted);
+            line-height:1.65;
+            margin:0;
+        }
+
+        .location-actions{
+            display:flex;
+            flex-wrap:wrap;
+            gap:.8rem;
         }
 
         .pack-card h3, .schedule-card h3, .info-card h5{
@@ -577,13 +721,19 @@
             <div class="fw-bold brand-title">Pilates Reformer</div>
         </div>
 
-        <a href="https://maps.app.goo.gl/cyFBaynEZY4VtZri7" class="map-link">
-            Ubicación 📍
-        </a>
+        <div class="nav-links">
+            <a href="#servicios">Servicios</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#preguntas">FAQ</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=N.%20Rodr%C3%ADguez%20Pe%C3%B1a%202177%2C%20X5001FII%2C%20C%C3%B3rdoba%2C%20Argentina" class="map-link" target="_blank" rel="noopener noreferrer">
+                Ubicación 📍
+            </a>
+        </div>
     </div>
 </nav>
 
-<section class="hero">
+<section class="hero" id="inicio">
     <div class="container">
         <div class="hero-card">
             <div class="row align-items-center g-4">
@@ -631,7 +781,7 @@
 
                 <div class="col-12 col-lg-5">
                     <div class="hero-logo-wrap">
-                        <img src="/ataraxia-logo.png" alt="Logo Ataraxia Pilates" class="hero-logo">
+                        <img src="/ataraxia-logo.png" alt="Logo Ataraxia Pilates" class="hero-logo" width="420" height="420" fetchpriority="high" decoding="async">
                     </div>
                 </div>
             </div>
@@ -639,11 +789,11 @@
     </div>
 </section>
 
-<section class="section-space">
+<section class="section-space" aria-labelledby="galeria-title">
     <div class="container">
         <div class="gallery-shell">
             <div class="text-center gallery-copy">
-                <h2 class="section-title mb-3">Conocé nuestro espacio</h2>
+                <h2 class="section-title mb-3" id="galeria-title">Conocé nuestro espacio</h2>
                 <p class="section-copy mx-auto mb-0">Deslizá las fotos para ver de cerca el estudio donde se llevaran a cabo las clases personalizadas.</p>
             </div>
 
@@ -663,7 +813,7 @@
                             data-photo-src="/imagen-local1.png"
                             data-photo-alt="Vista del estudio Ataraxia Pilates"
                         >
-                            <img src="/imagen-local1.png" alt="Vista del estudio Ataraxia Pilates">
+                            <img src="/imagen-local1.png" alt="Vista del estudio Ataraxia Pilates en Córdoba" width="1200" height="800" fetchpriority="high" decoding="async">
                         </button>
                     </div>
 
@@ -676,7 +826,7 @@
                             data-photo-src="/imagen-local2.png"
                             data-photo-alt="Espacio de práctica en Ataraxia Pilates"
                         >
-                            <img src="/imagen-local2.png" alt="Espacio de práctica en Ataraxia Pilates">
+                            <img src="/imagen-local2.png" alt="Espacio de práctica con reformers en Ataraxia Pilates Córdoba" width="1200" height="800" loading="lazy" decoding="async">
                         </button>
                     </div>
                 </div>
@@ -692,7 +842,7 @@
     </div>
 </section>
 
-<section class="section-space">
+<section class="section-space" id="servicios">
     <div class="container">
         <div class="glass-panel">
             <div class="row align-items-center g-4">
@@ -712,9 +862,39 @@
     </div>
 </section>
 
-<section class="section-space">
+<section class="section-space" aria-labelledby="beneficios-title">
     <div class="container">
-        <h2 class="section-title text-center">Packs disponibles</h2>
+        <h2 class="section-title text-center" id="beneficios-title">Clases de pilates pensadas para tu bienestar</h2>
+        <p class="section-copy text-center mx-auto mb-4">En Ataraxia Pilates trabajamos con cupos reducidos para acompañarte de cerca, cuidar la técnica y adaptar cada clase a tu nivel.</p>
+
+        <div class="row g-4">
+            <div class="col-12 col-md-4">
+                <div class="service-card">
+                    <h3>Pilates Reformer</h3>
+                    <p>Clases con reformer para mejorar fuerza, movilidad, postura y control corporal en un espacio cómodo y cuidado.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="service-card">
+                    <h3>Grupos reducidos</h3>
+                    <p>Máximo 4 personas por clase para que cada alumno reciba seguimiento personalizado durante la práctica.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="service-card">
+                    <h3>Para todos los niveles</h3>
+                    <p>Podés empezar aunque no tengas experiencia previa. La clase se adapta a tu ritmo, objetivos y condición física.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-space" aria-labelledby="packs-title">
+    <div class="container">
+        <h2 class="section-title text-center" id="packs-title">Packs disponibles</h2>
         <p class="section-copy text-center mx-auto mb-4">Elegí el ritmo que mejor se adapte a tu semana.</p>
 
         <div class="row g-4 justify-content-center">
@@ -753,7 +933,7 @@
     </div>
 </section>
 
-<section class="section-space">
+<section class="section-space" id="horarios">
     <div class="container">
         <h2 class="section-title text-center">Horarios disponibles</h2>
         <p class="section-copy text-center mx-auto mb-4">Opciones simples para organizar tu práctica.</p>
@@ -805,9 +985,9 @@
     </div>
 </section>
 
-<section class="section-space">
+<section class="section-space" aria-labelledby="info-title">
     <div class="container">
-        <h2 class="section-title text-center">Información importante</h2>
+        <h2 class="section-title text-center" id="info-title">Información importante</h2>
         <div class="row g-4 mt-1">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="info-card">
@@ -849,6 +1029,58 @@
                     <h5>Primera clase</h5>
                     <p>Si es tu primera vez, el entrenamiento se adapta a tu nivel.</p>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-space" id="ubicacion">
+    <div class="container">
+        <div class="glass-panel">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title">Ubicación en Córdoba</h2>
+                    <p class="section-copy mb-3">Ataraxia Pilates se encuentra en N. Rodríguez Peña 2177, Córdoba. Consultanos por WhatsApp para confirmar disponibilidad, indicaciones y coordinar tu primera clase.</p>
+                    <div class="location-actions">
+                        <a href="https://www.google.com/maps/search/?api=1&query=N.%20Rodr%C3%ADguez%20Pe%C3%B1a%202177%2C%20X5001FII%2C%20C%C3%B3rdoba%2C%20Argentina" class="map-link" target="_blank" rel="noopener noreferrer">Ver ubicación en Google Maps</a>
+                        <a href="https://wa.me/5493513110462?text=Hola%21%20%C2%BFC%C3%B3mo%20est%C3%A1s%3F%20%0A%0AMe%20interesa%20empezar%20clases%20de%20pilates%20en%20Ataraxia.%0A%0A%C2%BFPodr%C3%ADas%20brindarme%20informaci%C3%B3n%20sobre%20ubicaci%C3%B3n%2C%20horarios%20y%20disponibilidad%3F%0A%0A%C2%A1Muchas%20gracias%21%20" class="map-link">Consultar por WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <div class="soft-block">
+                        <h3 class="fw-bold mb-2">Horarios de atención</h3>
+                        <p class="section-copy mb-0">Lunes a viernes, con turnos de mañana y tarde. Las clases son con reserva previa y cupos limitados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-space" id="preguntas">
+    <div class="container">
+        <div class="glass-panel">
+            <h2 class="section-title text-center">Preguntas frecuentes</h2>
+
+            <div class="faq-item">
+                <h3>¿Necesito experiencia previa para empezar pilates?</h3>
+                <p>No. Las clases se adaptan a tu nivel y podés comenzar aunque sea tu primera vez haciendo Pilates Reformer.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>¿Cuántas personas hay por clase?</h3>
+                <p>Trabajamos con grupos reducidos de hasta 4 personas para brindar una atención más personalizada.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>¿Cómo reservo una clase?</h3>
+                <p>Podés escribir por WhatsApp para consultar horarios disponibles, elegir tu pack y coordinar tus clases.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>¿Qué pasa si no puedo asistir?</h3>
+                <p>Si avisás con anticipación, se puede coordinar una reprogramación según disponibilidad.</p>
             </div>
         </div>
     </div>

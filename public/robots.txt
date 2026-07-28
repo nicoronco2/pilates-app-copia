@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin.html
+Disallow: /reservar
+Disallow: /reservar.html
+Disallow: /login
+Disallow: /login-2fa
+Disallow: /api/
+
+Sitemap: https://ataraxia-pilates-web.onrender.com/sitemap.xml
